@@ -1,3 +1,5 @@
+import headerImage from '../assets/header.png';
+
 const Hero = () => {
   return (
     <section className="bg-justpay-green text-white">
@@ -15,11 +17,13 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Hero Image Placeholder */}
-      <div className="w-full h-64 md:h-96 bg-gray-300 overflow-hidden">
-        <div className="w-full h-full bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center">
-          <p className="text-gray-500 text-lg">Hero Image - Group of people</p>
-        </div>
+      {/* Hero Image */}
+      <div className="w-full overflow-hidden">
+        <img 
+          src={headerImage} 
+          alt="JustPay users" 
+          className="w-full h-auto object-cover"
+        />
       </div>
     </section>
   );

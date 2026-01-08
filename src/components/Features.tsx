@@ -1,3 +1,7 @@
+import activationImage from '../assets/acivation_block_image.png';
+import appleImage from '../assets/apple_block_image.png';
+import giftImage from '../assets/gift_block_image.png';
+
 const Features = () => {
   return (
     <section id="features" className="py-16 md:py-24 bg-white">
@@ -16,10 +20,12 @@ const Features = () => {
         <div className="mb-20 md:mb-32">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
-              <div className="w-full h-64 md:h-96 bg-gray-300 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-pink-200 to-orange-200 flex items-center justify-center">
-                  <p className="text-gray-500">Woman with phone</p>
-                </div>
+              <div className="w-full rounded-lg overflow-hidden">
+                <img 
+                  src={activationImage} 
+                  alt="Activation without the wait" 
+                  className="w-full h-auto object-cover rounded-lg"
+                />
               </div>
             </div>
             <div className="order-1 md:order-2">
@@ -51,10 +57,12 @@ const Features = () => {
               </button>
             </div>
             <div>
-              <div className="w-full h-64 md:h-96 bg-gray-300 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-blue-200 to-purple-200 flex items-center justify-center">
-                  <p className="text-gray-500">Person using phone at payment terminal</p>
-                </div>
+              <div className="w-full rounded-lg overflow-hidden">
+                <img 
+                  src={appleImage} 
+                  alt="Apple and Google Pay ready" 
+                  className="w-full h-auto object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -64,10 +72,12 @@ const Features = () => {
         <div className="mb-20 md:mb-32">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
-              <div className="w-full h-64 md:h-96 bg-gray-300 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-green-200 to-teal-200 flex items-center justify-center">
-                  <p className="text-gray-500">Office workers group</p>
-                </div>
+              <div className="w-full rounded-lg overflow-hidden">
+                <img 
+                  src={giftImage} 
+                  alt="Gift, reward or share with family or friends" 
+                  className="w-full h-auto object-cover rounded-lg"
+                />
               </div>
             </div>
             <div className="order-1 md:order-2">

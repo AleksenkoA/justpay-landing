@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/logo.svg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
 
           {/* Logo */}
           <div className="flex-1 md:flex-none text-center md:text-left">
-            <h1 className="text-xl font-bold">JustPay.cards</h1>
+            <img src={logo} alt="JustPay.cards" className="h-8" />
           </div>
 
           {/* Desktop Navigation */}
