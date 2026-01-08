@@ -5,12 +5,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-justpay-green text-white">
+    <header className="bg-white text-black">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-black"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -19,22 +19,21 @@ const Header = () => {
             </svg>
           </button>
 
-          {/* Logo */}
-          <div className="flex-1 md:flex-none text-center md:text-left">
+          {/* Desktop Navigation - Left */}
+          <div className="hidden md:flex items-center space-x-6">
+            <a href="#features" className="text-black hover:text-gray-600 transition">Features</a>
+            <a href="#how-it-works" className="text-black hover:text-gray-600 transition">How it works</a>
+            <a href="#business" className="text-black hover:text-gray-600 transition">Business</a>
+          </div>
+
+          {/* Logo - Center */}
+          <div className="flex-1 flex justify-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
             <img src={logo} alt="JustPay.cards" className="h-8" />
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6 flex-1 justify-center">
-            <a href="#features" className="hover:text-gray-200 transition">Features</a>
-            <a href="#how-it-works" className="hover:text-gray-200 transition">How it works</a>
-            <a href="#about" className="hover:text-gray-200 transition">About us</a>
-            <a href="#contact" className="hover:text-gray-200 transition">Contact</a>
-          </div>
-
-          {/* Login Button */}
+          {/* Login Button - Right */}
           <div className="flex items-center">
-            <button className="px-4 py-2 text-white hover:text-gray-200 transition">
+            <button className="bg-justpay-green text-white px-6 py-2 rounded-2xl font-semibold hover:bg-green-700 transition">
               Login
             </button>
           </div>
@@ -44,10 +43,9 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-3">
-              <a href="#features" className="hover:text-gray-200 transition">Features</a>
-              <a href="#how-it-works" className="hover:text-gray-200 transition">How it works</a>
-              <a href="#about" className="hover:text-gray-200 transition">About us</a>
-              <a href="#contact" className="hover:text-gray-200 transition">Contact</a>
+              <a href="#features" className="text-black hover:text-gray-600 transition">Features</a>
+              <a href="#how-it-works" className="text-black hover:text-gray-600 transition">How it works</a>
+              <a href="#business" className="text-black hover:text-gray-600 transition">Business</a>
             </div>
           </div>
         )}

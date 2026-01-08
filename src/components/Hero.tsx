@@ -11,7 +11,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl mb-8 text-gray-200">
             Redeem, activate, and spend in minutes. The secure virtual prepaid card accepted everywhere a credit card is accepted. For online and digital stores. Trusted by 1000+ users worldwide.
           </p>
-          <button className="bg-white text-justpay-green px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
+          <button className="border-2 border-white text-white bg-transparent px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-white hover:text-justpay-green transition">
             Redeem card
           </button>
         </div>

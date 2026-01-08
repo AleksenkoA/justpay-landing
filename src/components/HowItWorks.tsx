@@ -1,31 +1,23 @@
+import iconGift from '../assets/icon_gift.svg';
+import iconCheck from '../assets/icon_check.svg';
+import iconBox from '../assets/icon_box.svg';
+
 const HowItWorks = () => {
   const steps = [
     {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
-        </svg>
-      ),
+      icon: iconGift,
       title: "Redeem your code",
-      description: "Give your unique ID to redeem your card."
+      description: "Click your unique link received via email."
     },
     {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
+      icon: iconCheck,
       title: "Verify your identity",
-      description: "Complete legally, secure identity check."
+      description: "Complete a quick, secure identity check."
     },
     {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-        </svg>
-      ),
+      icon: iconBox,
       title: "Spend without limits",
-      description: "Your card is active, use it to pay for products."
+      description: "Your card is active. Use it online or tap to pay in-store."
     }
   ];
 
@@ -45,7 +37,7 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div key={index} className="text-center">
               <div className="flex justify-center mb-4 text-white">
-                {step.icon}
+                <img src={step.icon} alt={step.title} className="w-12 h-12" />
               </div>
               <h3 className="text-xl md:text-2xl font-bold mb-3">
                 {step.title}
@@ -58,7 +50,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center">
-          <button className="bg-justpay-green text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-700 transition">
+          <button className="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-gray-100 transition">
             Redeem card
           </button>
         </div>

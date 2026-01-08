@@ -11,23 +11,23 @@ const FAQ = () => {
   const faqs: FAQItem[] = [
     {
       question: "Where can I use it?",
-      answer: "You can use your JustPay card anywhere Visa or Mastercard® is accepted, both online and in physical stores. It works globally for local and international transactions."
+      answer: "Your card works anywhere Visa or Mastercard is accepted globally. Use it online, in-store, or add it to your digital wallet for contactless payments. It's accepted at millions of retailers worldwide."
     },
     {
       question: "How do I add to Apple Pay?",
-      answer: "Simply open your digital wallet app (Apple Wallet or Google Pay), tap the '+' button, and follow the instructions to add your JustPay card. The process takes just seconds."
+      answer: "Once your card is active, open your digital wallet and tap to add your card. It takes one tap and works instantly for contactless payments in-store and online."
     },
     {
       question: "Is it secure?",
-      answer: "Yes, JustPay cards are fully secure. We use industry-standard encryption and security measures. All transactions are protected, and your identity is verified through a secure, legal process."
+      answer: "Yes. Your card is PCI-DSS compliant with 3D Secure protection and passwordless login. Bank-grade security protects every transaction you make."
     },
     {
-      question: "Do I have to register?",
-      answer: "Yes, you need to complete a quick identity verification process when redeeming your card. This is a one-time process that ensures security and compliance with financial regulations."
+      question: "Do funds expire?",
+      answer: "Your funds remain available for the duration of your card validity. Check your card details for the specific expiration date and any terms that apply to your balance."
     },
     {
       question: "Can I reload my card?",
-      answer: "Yes, you can reload your JustPay card. Contact our support team or use the reload feature in your account dashboard to add funds to your card."
+      answer: "Reload options depend on your card type and issuer. Contact support to learn about reload methods available for your specific card."
     }
   ];
 
@@ -71,10 +71,13 @@ const FAQ = () => {
         </div>
 
         <div className="text-center">
-          <p className="text-lg mb-4 text-gray-300">
-            Our support team is here to assist you anytime.
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">
+            Need more help?
+          </h3>
+          <p className="text-lg mb-6 text-gray-300">
+            Our support team is ready to assist you anytime.
           </p>
-          <button className="bg-justpay-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition">
+          <button className="border-2 border-white text-white bg-transparent px-6 py-3 rounded-2xl font-semibold hover:bg-white hover:text-black transition">
             Support
           </button>
         </div>
