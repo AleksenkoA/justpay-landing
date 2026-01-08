@@ -5,10 +5,10 @@ const Footer = () => {
     <footer className="bg-white text-black py-12">
       <div className="container mx-auto px-4">
         {/* First Row: Logo, Navigation, Social Media */}
-        <div className="flex flex-col md:flex-row items-center justify-between py-8 border-t border-gray-300">
+        <div className="flex flex-col md:flex-row items-center justify-between py-8">
           {/* Logo - Left */}
           <div className="mb-6 md:mb-0">
-            <img src={logo} alt="JustPay.cards" className="h-12" />
+            <img src={logo} alt="JustPay.cards" className="h-14" />
           </div>
 
           {/* Navigation - Center */}

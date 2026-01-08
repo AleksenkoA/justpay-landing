@@ -42,7 +42,7 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Questions
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-6">
             Everything you need to know about JustPay card and how it works.
           </p>
         </div>
@@ -77,7 +77,7 @@ const FAQ = () => {
           <p className="text-lg mb-6 text-gray-300">
             Our support team is ready to assist you anytime.
           </p>
-          <button className="border-2 border-white text-white bg-transparent px-6 py-3 rounded-2xl font-semibold hover:bg-white hover:text-black transition">
+          <button className="border-2 border-white text-white bg-transparent px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
             Support
           </button>
         </div>

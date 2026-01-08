@@ -28,12 +28,12 @@ const Header = () => {
 
           {/* Logo - Center */}
           <div className="flex-1 flex justify-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
-            <img src={logo} alt="JustPay.cards" className="h-8" />
+            <img src={logo} alt="JustPay.cards" className="h-12" />
           </div>
 
           {/* Login Button - Right */}
           <div className="flex items-center">
-            <button className="bg-justpay-green text-white px-6 py-2 rounded-2xl font-semibold hover:bg-green-700 transition">
+            <button className="bg-justpay-green text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition">
               Login
             </button>
           </div>

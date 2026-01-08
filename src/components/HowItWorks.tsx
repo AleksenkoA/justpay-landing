@@ -28,7 +28,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             From code to cash in three steps
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-6">
             Everything happens fast. Redeem your code, verify who you are, and your card works immediately.
           </p>
         </div>
@@ -39,7 +39,7 @@ const HowItWorks = () => {
               <div className="flex justify-center mb-4 text-white">
                 <img src={step.icon} alt={step.title} className="w-12 h-12" />
               </div>
-              <h3 className="text-xl md:text-2xl font-bold mb-3">
+              <h3 className="text-xl md:text-2xl font-bold mb-2">
                 {step.title}
               </h3>
               <p className="text-gray-300">
@@ -50,7 +50,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center">
-          <button className="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-gray-100 transition">
+          <button className="bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition">
             Redeem card
           </button>
         </div>
