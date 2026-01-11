@@ -6,12 +6,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Your virtual card. Global freedom. Instant access.
+            Your virtual card.<br />
+            Global freedom.<br />
+            Instant access.
           </h1>
           <p className="text-lg md:text-xl mb-6 text-gray-200">
             Redeem, activate, and spend in minutes. The secure virtual prepaid card accepted everywhere a credit card is accepted. For online and digital stores. Trusted by 1000+ users worldwide.
           </p>
-          <button className="border-2 border-white text-white bg-transparent px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-justpay-green transition">
+          <button className="border-2 border-white text-white bg-transparent px-8 py-2 rounded-full font-semibold text-lg hover:bg-white hover:text-justpay-green transition">
             Redeem card
           </button>
         </div>

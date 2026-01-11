@@ -50,7 +50,7 @@ const Features = () => {
         <div className="mb-20 md:mb-32">
           <div className="border border-gray-300 rounded-xl overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0 items-center">
-              <div className="order-1 md:order-1">
+              <div className="order-1 md:order-2">
                 <div className="w-full overflow-hidden">
                   <img 
                     src={appleImage} 
@@ -59,7 +59,7 @@ const Features = () => {
                   />
                 </div>
               </div>
-              <div className="order-2 md:order-2 px-4 md:px-8 lg:px-12 py-4 md:py-6 text-center md:text-left">
+              <div className="order-2 md:order-1 px-4 md:px-8 lg:px-12 py-4 md:py-6 text-center md:text-left">
                 <h3 className="text-2xl md:text-4xl font-bold text-black mb-4">
                   Apple and Google Pay ready
                 </h3>
