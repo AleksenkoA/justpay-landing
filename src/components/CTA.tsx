@@ -8,7 +8,7 @@ const CTA = () => {
         <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
           Redeem your code and complete your card in minutes. No waiting, no complications.
         </p>
-        <button className="bg-justpay-green text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-700 transition">
+        <button className="bg-justpay-green text-white px-8 py-2 rounded-full font-semibold text-lg hover:bg-green-700 transition">
           Redeem now
         </button>
       </div>

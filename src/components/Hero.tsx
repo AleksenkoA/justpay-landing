@@ -10,7 +10,7 @@ const Hero = () => {
             Global freedom.<br />
             Instant access.
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-200">
+          <p className="text-lg md:text-xl mb-6 text-gray-200 max-w-2xl mx-auto">
             Redeem, activate, and spend in minutes. The secure virtual prepaid card accepted everywhere a credit card is accepted. For online and digital stores. Trusted by 1000+ users worldwide.
           </p>
           <button className="border-2 border-white text-white bg-transparent px-8 py-2 rounded-full font-semibold text-lg hover:bg-white hover:text-justpay-green transition">

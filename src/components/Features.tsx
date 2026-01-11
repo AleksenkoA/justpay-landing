@@ -37,7 +37,7 @@ const Features = () => {
                   No waiting days for your bank card. Get your details instantly and start spending.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="bg-justpay-green text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition">
+                  <button className="bg-justpay-green text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition">
                     Redeem card
                   </button>
                 </div>
@@ -67,7 +67,7 @@ const Features = () => {
                   Add to your digital wallet in seconds for contactless in-store payments.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="bg-justpay-green text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition">
+                  <button className="bg-justpay-green text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition">
                     Redeem card
                   </button>
                 </div>
@@ -97,7 +97,7 @@ const Features = () => {
                   Instantly redeem, share a gift, or create personalized cards suitable for every occasion.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="bg-justpay-green text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition">
+                  <button className="bg-justpay-green text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition">
                     Redeem card
                   </button>
                 </div>

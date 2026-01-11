@@ -50,7 +50,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center">
-          <button className="bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition">
+          <button className="bg-white text-black px-8 py-2 rounded-full font-semibold text-lg hover:bg-gray-100 transition">
             Redeem card
           </button>
         </div>
